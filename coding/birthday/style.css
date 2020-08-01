@@ -25,3 +25,9 @@ body {
   button, input {
       cursor: pointer;
   }
+
+  .home {
+      float:right;
+      padding-right: 45px;
+      padding-top: 15px;
+  }
