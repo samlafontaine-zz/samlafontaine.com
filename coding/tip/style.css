@@ -12,8 +12,12 @@ input, #itemtip {
     background-color: bisque;
 }
 
-p, h1 {
+p, h1, a {
     color: darkgoldenrod;
+}
+
+a:hover {
+    font-size: 1.5em;
 }
 
 #myButton:hover {
