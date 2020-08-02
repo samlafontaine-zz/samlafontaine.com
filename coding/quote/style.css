@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+* {
+    font-family: 'Ultra', serif;
+}
+
+html {
+    background-color: #FFDC00;
+}
+
+.pad {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #FF851B;
+    text-align: center;
+    min-height: 70%;
+}
+
+h1 {
+    padding-top: 5%;
+}
+
+.myButton {
+    border-color: black;
+    padding: 20px;
+    background-color: white;
+    outline: #FFDC00;
+}
+
+.myButton:hover {
+    background-color: #FFDC00;
+}
+
+#quote {
+    font-size: 30px;
+}
+
+#author {
+    float: right;
+}
+
+.inner {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.back {
+    position:absolute;
+    top:20;
+    right:20;
+    color: black;
+    font-size: 25px;
+}
+
+.back:hover {
+    color: #453886;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 7%;
+    border-bottom: 0;
+    padding-bottom: .2em;
+    text-decoration: none;
+}
