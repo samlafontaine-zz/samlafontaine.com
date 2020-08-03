@@ -201,6 +201,10 @@ main nav a:not([href*=mailto]):hover {
 	transition: left .3s ease
 }
 
+.contrast-toggle:focus {
+	outline: 0;
+}
+
 .contrast-switch .contrast-toggle:after {
 	left: 50%
 }
