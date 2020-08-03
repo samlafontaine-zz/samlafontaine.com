@@ -145,6 +145,10 @@ main nav a:not([href*=mailto]):hover {
 	left: 50%
 }
 
+.contrast-toggle:focus {
+	outline: 0;
+}
+
 .noselect {
 	-webkit-touch-callout: none;
 	/* iOS Safari */
