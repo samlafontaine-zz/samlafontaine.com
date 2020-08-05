@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+}
+
+#main {
+    margin-top: 100px;
+    background-color: paleturquoise;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.back a{
+    float: right;
+    margin-right: 20;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: paleturquoise;
+    font-size: 20px;
+}
