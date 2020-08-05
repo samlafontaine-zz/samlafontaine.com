@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+* {
+    font-family: 'Jockey One', sans-serif;;
+}
+
+.main {
+    background-color: coral;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main > div {
+    flex: 1;
+    font-size: 40px;
+    padding-top: 21vh;
+}
+
+input {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px;
+}
+
+button:hover {
+    background-color: navajowhite;
+    text-transform: uppercase;
+}
+
+.back {
+    float: right;
+}
+
+a {
+    text-decoration: crimson;
+    color: black;
+}
+
