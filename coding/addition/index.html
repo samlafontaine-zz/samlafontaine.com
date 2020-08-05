@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/abacus_1f9ee.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Addition Game</title>
+</head>
+
+<body onload="generate()">
+    <div class="back">
+        <a href="https://samlafontaine.com/coding">back 🙃</a>
+    </div>
+    <div class="main">
+        <div><span id="one"></span></div>
+        <div>+</div>
+        <div><span id="two"></span></div>
+        <div>=</div>
+        <div><input type="number" id="guess"></div>
+        <div><button onclick="check()">check</button></div>
+    </div>
+</body>
+
+<script src="js.js"></script>
+</html>
