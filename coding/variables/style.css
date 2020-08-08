@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+* {
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    text-align: center;
+    padding-top: 50px;
+    background-color: darkgoldenrod;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+#JS {
+    color: var(--base);
+}
+
+
+.controls {
+    color: white;
+    font-size: 40px;
+}
+
+img {
+    width: 1000px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: var(--base);
+    font-size: 35px;
+    transition: 1s;
+}
