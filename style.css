@@ -84,7 +84,7 @@ main {
 
 main {
 	position: relative;
-	padding: 20vmin 0 8vmin;
+	padding: 15vmin 0 8vmin;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -97,7 +97,7 @@ main {
 
 main nav {
 	display: block;
-	margin-top: 4.3vmin
+	margin-top: 5vmin
 }
 
 main nav a {
