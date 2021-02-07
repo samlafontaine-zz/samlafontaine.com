@@ -73,7 +73,7 @@ h1 {
 nav a {
 	display: inline-block;
 	position: relative;
-	text-decoration: underline;
+	text-decoration: none;
 	color: currentColor
 }
 
@@ -108,11 +108,11 @@ main nav a {
 	transition: opacity .3s ease
 }
 
-main nav a:not([href*=mailto]) {
+main nav a {
 	opacity: .4
 }
 
-main nav a:not([href*=mailto]):hover {
+main nav a:hover {
 	opacity: 1
 }
 
