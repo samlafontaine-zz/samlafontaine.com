@@ -9,6 +9,7 @@ html {
 	height: 100%
 }
 
+
 body {
 	background: black;
 	font-family: 'Poppins', sans-serif;
@@ -29,39 +30,6 @@ body.contrast-switch header svg path {
 	padding: 0 40px
 }
 
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding: 5vmin 40px 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	z-index: 2
-}
-
-header svg {
-	height: 8vmin;
-	max-height: 50px;
-	min-height: 32px;
-	width: auto
-}
-
-header svg path {
-	fill: white
-}
-
-header .underline {
-	font-size: 4vmin
-}
-
 h1 {
 	margin: 0;
 	font-size: 44px;
@@ -70,7 +38,8 @@ h1 {
 }
 
 .underline,
-nav a {
+nav a,
+.fr a {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
@@ -100,8 +69,8 @@ main nav {
 	margin-top: 5vmin
 }
 
-main nav a {
-	font-size: 4vmin;
+main nav a,
+.fr a {
 	line-height: 1.5;
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
@@ -117,9 +86,9 @@ main nav a:hover {
 }
 
 .contrast-toggle {
-	position: absolute;
-	right: 0;
-	bottom: 10vmin;
+	position: fixed;
+    top: 5vmin;
+    right: 5vmin;
 	width: 4.5vmin;
 	height: 3vmin;
 	border: .7vmin solid currentColor;
@@ -127,6 +96,7 @@ main nav a:hover {
 	min-width: 28px;
 	cursor: pointer
 }
+
 
 .contrast-toggle:after {
 	content: "";
@@ -165,35 +135,21 @@ main nav a:hover {
                                   supported by Chrome and Opera */
 }
 
-/* media queres */
+/* media queries */
 
 @media (min-width:800px) {
 	.container {
-		padding: 0 100px
+		padding-left: 10%;
+		padding-right: 10%;
+        padding-top: 0.5%;
 	}
 }
 
-@media (min-width:1200px) {
+@media (max-width:800px) {
 	.container {
-		padding: 0 200px
-	}
-}
-
-@media (min-width:800px) {
-	header {
-		padding: 7vmin 100px 0
-	}
-}
-
-@media (min-width:1200px) {
-	header {
-		padding: 9vmin 200px 0
-	}
-}
-
-@media (min-width:800px) {
-	header .underline {
-		font-size: 3vmin
+		padding-left: 10%;
+		padding-right: 10%;
+        padding-top: 10%;
 	}
 }
 
@@ -215,8 +171,14 @@ main nav a:hover {
 	}
 }
 
-@media only screen and (max-width: 480px) {
-	main { 
-		text-align: center; 
+@media (max-width:800px) {
+	main nav {
+		font-size: 5.3vmin;
+	}
+}
+
+@media (max-width:800px) {
+	h1 {
+		font-size: 6.5vmin;
 	}
 }
