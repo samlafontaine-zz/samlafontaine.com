@@ -1,63 +1,65 @@
 
 <!DOCTYPE html>
 <html lang="en">
+	<head>
 
-<head>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sam Lafontaine</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92538497-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-92538497-1');
-    </script>
-    
-   
+		<meta charset="utf-8">
+		<title>Sam Lafontaine</title>
+    	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link href="style.css" rel="stylesheet" />
+		<link href="animate.css" rel="stylesheet" />
+		<script src="https://use.typekit.net/oda0fjf.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
-<body>
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
 
-    <div class="container noselect">
-        
-        <main>
-            <div class="center">
-                <h1>
-                    Hi, my name is Sam. 👋<br>
-                </h1>
-                <nav>
-                    I'm a product manager, tech enthusiast, team-player and optimist. I love 
+	<body>
+			<header class="animated bounceInDown">
+				<h1>Sam Lafontaine</h1>
+				<ul>
+				<li>I'm a product manager, tech enthusiast, team-player and optimist. I love 
                     building things from scratch and working in hyper growth environments. 
                     When I'm not working, I like reading, cycling, running, bike-touring, scuba diving 
-                    and hockey (go habs go!). If you want to get in touch, you can reach out by 
-                    <a href="mailto:hello@samlafontaine.com">email</a>, on
-                    <a href="https://twitter.com/samlafontaine_">twitter</a>, or on
-                    <a href="https://www.linkedin.com/in/samuel-lafontaine/">linkedin</a>.
-                    You can also check out my <a href= "https://www.notion.so/Samuel-Lafontaine-e12dd9979dc54365973c140ca86a37b0">resume</a>.
-                </nav>
-<br><br><br>
-            </div>
+                    and hockey (go habs go!).
+				</li>
+			</ul>
+			</header>
 
-            <div tabindex="0" onclick="toggle()" class="contrast-toggle"> </div>
-        </main>
+			<div id="left">
+				<div id="currently">
+					<h2>Currently</h2>
+					<ul>
+						<li>Product Manager, Growth, <a href="https://pleo.io/en" target="_blank">Pleo</a>.</li>
+						<li>Based in Montréal, QC.</li>
+					</ul>
+				</div>
 
-    </div>
-    <script type="text/javascript">
-        function toggle() {
-            document.body.classList.toggle("contrast-switch");
-        }
-    </script>
-</body>
+				<div id="previously">
+					<h2>Previously</h2>
+					<ul>
+						<li>Growth Marketer, <a href="https://www.tattoodo.com/" target="_blank">Tattoodo</a>.</li>
+						<li>Master's Degree, <a href="https://www.cbs.dk/en" target="_blank">Copenhagen Business School</a>.</li>
+						<li>Bachelor's Degree, <a href="https://www.hec.ca/" target="_blank">HEC Montréal</a>.</li>
+					</ul>
+				</div>
 
+				<div id="links">
+					<p><a href="https://www.notion.so/Samuel-Lafontaine-e12dd9979dc54365973c140ca86a37b0" target="_blank">Resume</a>  &middot <a href="https://www.linkedin.com/in/samlafontaine/" target="_blank">LinkedIn</a> &middot <a href="https://twitter.com/samlafontaine_" target="_blank">Twitter</a> &middot <a href="mailto:hello@samlafontaine.com" target="_blank">Email</a>
+					</p>
+				</div>
+			</div>
+
+			<div id="face">
+				<img src="sam.png" alt="Sam" />
+			</div>
+			<script type="text/javascript" src="assets/retina.js"></script>
+	</body>
 </html>
