@@ -75,14 +75,7 @@
           position: fixed;
           bottom: 40px;
       }
-   
-      @media screen and (max-height: 940px) {
-       #links {
-         bottom: auto;
-         position: relative;
-         margin: 40px 0;
-       }
-      }
+
    
    /* ===================================
       typography and stuff...
