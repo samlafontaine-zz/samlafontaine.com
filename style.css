@@ -65,12 +65,6 @@
        }
       }
    
-      @media screen and (max-width: 800px) {
-       #face {
-         width: auto;
-       }
-      }
-   
       #links {
           position: fixed;
           bottom: 40px;
@@ -190,6 +184,7 @@
          #links {
              position: static;
              margin-top: 80px;
+             margin-bottom: 20px;
              }
    
          #face {
