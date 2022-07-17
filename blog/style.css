@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
-
 }
 
 body {
@@ -14,6 +13,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+figcaption  {
+    font-size: 12px;
 }
 
 h1 {
