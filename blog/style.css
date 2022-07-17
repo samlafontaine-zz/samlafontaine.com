@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 120%;
+}
+
+strong {
+    font-weight: 600;
+  }  
+
+h2 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+.subcaption {
+    opacity: 80%; 
+    font-size: 18px;  
+    line-height: 180%;
+}
+
+.date {
+    opacity: 70%;
+    font-size: 14px;
+}
+
+
+.article-body {
+    font-size: 16px;
+    color: black;
+    line-height: 180%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
+    color: #F25B44;
+}
+
+:root {
+    --mainColor: #F25B44;
+}
+
+.home-link {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .home-link:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'><style type='text/css'>.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23F25B44' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color:#000;
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .article-body {
+        font-size: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding-top: 25px;
+        line-height: 120%;
+    }
+    
+    h2 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+  }
