@@ -64,6 +64,12 @@ h3 {
     justify-content: center;
 }
 
+.subscribe-left {
+    padding-top: 60px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
 a {
     text-decoration: underline;
     color: #000;
@@ -130,6 +136,10 @@ a:hover {
     h3 {
         font-size: 18px;
         padding-top: 20px;
+    }
+
+    .date-main {
+        display:none;
     }
 
   }
