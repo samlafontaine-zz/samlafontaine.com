@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 
 * {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .intro {
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 150%;
+    padding-top: 20px;
 }
 
 .links {
@@ -54,11 +56,16 @@ a {
     }
 
     .intro {
-        font-size: 25px;
+        font-size: 20px;
+        padding-top: 0;
     }
 
     .links {
         font-size: 15px;
+    }
+
+    img {
+        width: 120px;
     }
 
   }
